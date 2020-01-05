@@ -1,0 +1,40 @@
+.wrapper{
+    font-size: 22px;
+    font-weight: bold;
+    height: 40px;
+}
+
+.emptySelected button{
+    padding: 5px 20px;
+    color: rgb(65, 0, 253);
+    font-size: 22px;
+    border-radius: 5px;
+    border: 2px solid rgb(65, 0, 253);
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.selected div{
+    cursor: pointer;
+}
+
+.selected img{
+    width: 18px;
+    height: 18px;
+}
+
+.selected div:nth-child(1){
+    margin-right: 50px;
+}
+
+.selected div:nth-child(1) p{
+    margin-right: 10px;
+}
+
+.selected div:nth-child(2){
+    color: rgb(65, 0, 253)
+}
+
+.selected div:nth-child(2) p{
+    margin-left: 10px;
+}
